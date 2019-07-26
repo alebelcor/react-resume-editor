@@ -1,0 +1,21 @@
+{
+  "name": "react-resume-editor",
+  "version": "1.0.0",
+  "description": "Resume editor web app written in React/Apollo/GraphQL/Prisma",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "install": "cd client && npm install",
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "graphql": "^14.4.2"
+  },
+  "dependencies": {
+    "prisma-client-lib": "^1.34.3"
+  }
+}

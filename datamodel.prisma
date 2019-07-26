@@ -1,0 +1,17 @@
+type Position {
+  id: ID! @id
+  title: String
+  company: String
+  description: String
+  year: Int
+  owner: Resume! @relation(link: INLINE)
+}
+
+type Resume {
+  id: ID! @id
+  name: String!
+  email: String!
+  linkedInUrl: String
+  githubUrl: String
+  position: [Position]
+}
